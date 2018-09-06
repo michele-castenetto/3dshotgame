@@ -3,8 +3,12 @@
 #### Laboratorio di Programmazione per Sistemi Multimediali Interattivi
 #### Final exam project
 
-![alt text][game_image]
-[game_image]: https://github.com/michele-castenetto/3dshotgame/tree/master/bin/data/images/game_image.png "Game image"
+
+<img src="https://github.com/michele-castenetto/3dshotgame/tree/master/bin/data/images/game_image.png"
+     alt="Game image"
+     style="width:80%" 
+/>
+
 
 
 ## Run project
