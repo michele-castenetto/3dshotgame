@@ -34,15 +34,7 @@ k/l: save/load game
 - compute ship mesh bounding boxes 
 - enemy ships shoot on the player
 - textures and materials for better sand and grass
-
-
 */
-
-
-
-
-
-
 
 
 #pragma once
