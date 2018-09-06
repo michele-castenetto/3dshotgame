@@ -1,8 +1,10 @@
 # 3d shot game
 
+#### Laboratorio di Programmazione per Sistemi Multimediali Interattivi
+#### Final exam project
 
-Laboratorio di Programmazione per Sistemi Multimediali Interattivi
-Final exam project
+![alt text][game_image]
+[game_image]: https://github.com/michele-castenetto/3dshotgame/tree/master/bin/data/images/game_image.png "Game image"
 
 
 ## Run project
@@ -16,14 +18,14 @@ This project is build around the idea of a simple game. The player must using a 
 
 ## Game keys:
 
-left/right arrows: move cannon left-right
-up/down arrows: rotate the shot angle up/down
-s: shoot
-h: help
-q: quit
-enter: start game
-1,2,3,4,9: change camera view
-k/l: save/load game
+- left/right arrows: move cannon left-right
+- up/down arrows: rotate the shot angle up/down
+- s: shoot
+- h: help
+- q: quit
+- enter: start game
+- 1,2,3,4,9: change camera view
+- k/l: save/load game
 
 ## Features
 
@@ -66,3 +68,8 @@ https://freesound.org
 ["Palm Tree 01"](https://poly.google.com/view/3Z-j3UC5jPe) by [Jarlan Perez](https://poly.google.com/user/4lZfAdz3x3X) is licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)
 - palm tree 2 mesh
 ["Palm Tree 02"](https://poly.google.com/view/aa6owopxwu5) by [Jarlan Perez](https://poly.google.com/user/4lZfAdz3x3X) is licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)
+
+
+
+
+
