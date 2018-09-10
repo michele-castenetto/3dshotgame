@@ -9,6 +9,13 @@
 
 
 
+## Project page
+
+See project page for more:
+
+["https://michele-castenetto.github.io/3dshotgame/"](https://michele-castenetto.github.io/3dshotgame/)
+
+
 ## Run project
 
 This project is based on [Openframeworks](https://openframeworks.cc/). 

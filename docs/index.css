@@ -6,14 +6,8 @@ html, body {
     font-size: 16px;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
-}
 
-li {
-    list-style: none;
-}
+
 
 a:link, a:visited, a:hover, a:active {
     text-decoration: none;
@@ -34,31 +28,54 @@ a:hover {
 
 /* navigator */
 
-.navigator {
-    /* background-color: #eee; */
-    border: 1px solid #f2f2f2;
-    height: 3rem;
+.navigator ul {
+    margin: 0;
+    padding: 0;
 }
 
 .navigator li {
-    display: inline;
-    margin: 1rem;
+    display: inline-block;
+    padding: 0 2rem;
+    margin: 0 0.5rem;;
     font-size: 1.5rem;
     line-height: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    transition: .5s;
+    overflow-y: hidden;
+    border: 2px solid #f2f2f2;
 }
+.navigator li:hover {
+    background-color: #eee;
+}
+
 
 /* section */
 
 .section {
-    padding: 2rem 1rem;
+    padding: 1rem 1rem 4rem;
 }
 .section h3 {
     font-size: 2rem;
+    margin: 1rem 0;
 }
-.section p {
-    font-size: 1.5rem;
+.section {
+    font-size: 1.2rem;
 }
 
-.section:nth-child(even) {
+.section:nth-of-type(even) {
     background-color: #f2f2f2;
+}
+
+.section_gamekeys li {
+    list-style: disc;
+}
+
+.section_gamekeys li {
+    list-style: disc;
+}
+
+
+.section_credits a {
+    color: #66c;
 }

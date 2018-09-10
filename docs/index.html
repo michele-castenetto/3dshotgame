@@ -23,12 +23,20 @@
 
     <nav class="navigator">
         <ul>
-            <li><a href="#concept"> Introduction </a></li>
-            <li><a href="#video"> Video </a></li>
-            <li><a href="#gamekeys"> Game keys </a></li>
-            <li><a href="#features"> Features </a></li>
-            <li><a href="#developements"> Possible developments </a></li>
-            <li><a href="#credits"> Credits </a></li>
+            <!-- <li><a href="#concept" data-scrollto="concept"> Introduction </a></li>
+            <li><a href="#video" data-scrollto="video"> Video </a></li>
+            <li><a href="#gamekeys" data-scrollto="gamekeys"> Game keys </a></li>
+            <li><a href="#features" data-scrollto="features"> Features </a></li>
+            <li><a href="#developments" data-scrollto="developments"> Possible developments </a></li>
+            <li><a href="#credits" data-scrollto="credits"> Credits </a></li> -->
+
+            <li data-scrollto="concept"> Introduction </li>
+            <li data-scrollto="video"> Video </li>
+            <li data-scrollto="gamekeys"> Game keys </li>
+            <li data-scrollto="features"> Features </li>
+            <li data-scrollto="developments"> Possible developments </li>
+            <li data-scrollto="credits"> Credits </li>
+
         </ul>
     </nav>
 
@@ -63,19 +71,43 @@
     <section class="section section_gamekeys">
         <h3> Game keys </h3>
 
-        <ul>
-            <li> left/right arrows: move cannon left-right </li>
-            <li> up/down arrows: rotate the shot angle up/down </li>
-            <li> s: shoot </li>
-            <li> h: help </li>
-            <li> q: quit </li>
-            <li> enter: start game </li>
-            <li> 1,2,3,4,9: change camera view </li>
-            <li> k/l: save/load game </li>
 
+        <table>
+            <tr>
+                <td><b>left/right arrows</b></td>
+                <td>move cannon left-right </td>
+            </tr>
+            <tr>
+                <td><b>up/down arrows</b></td>
+                <td>rotate the shot angle up/down </td>
+            </tr>
+            <tr>
+                <td><b>s</b></td>
+                <td> shoot </td>
+            </tr>
+            <tr>
+                <td><b>h</b></td>
+                <td> toggle help </td>
+            </tr>
+            <tr>
+                <td><b>q</b></td>
+                <td> quit game </td>
+            </tr>
+            <tr>
+                <td><b>enter</b></td>
+                <td> start game </td>
+            </tr>
+            <tr>
+                <td><b>1,2,3,4,9</b></td>
+                <td> change camera view </td>
+            </tr>
+            <tr>
+                <td><b>k/l</b></td>
+                <td> save/load game </td>
+            </tr>
 
-        </ul>
-
+        </table>
+        
     </section>
 
     <a name="features"></a>
@@ -92,8 +124,8 @@
         
     </section>
 
-    <a name="developements"></a>
-    <section class="section section_developements">
+    <a name="developments"></a>
+    <section class="section section_developments">
 
         <h3> Possible developments </h3>
 
@@ -173,6 +205,10 @@
         
 
     </section>
+
+
+    <script src="scrollto.js"></script>
+    <script src="index.js"></script>
 
 
 </body>
