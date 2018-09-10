@@ -1,0 +1,64 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    color: #444;
+    font-size: 16px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #666;
+}
+a:hover {
+    color: #999;
+}
+
+
+/* header */
+
+.header {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f2f2f2;
+}
+
+/* navigator */
+
+.navigator {
+    /* background-color: #eee; */
+    border: 1px solid #f2f2f2;
+    height: 3rem;
+}
+
+.navigator li {
+    display: inline;
+    margin: 1rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+/* section */
+
+.section {
+    padding: 2rem 1rem;
+}
+.section h3 {
+    font-size: 2rem;
+}
+.section p {
+    font-size: 1.5rem;
+}
+
+.section:nth-child(even) {
+    background-color: #f2f2f2;
+}
