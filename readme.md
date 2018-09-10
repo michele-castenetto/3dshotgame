@@ -1,13 +1,11 @@
 # 3d shot game
 
+
 #### Laboratorio di Programmazione per Sistemi Multimediali Interattivi
 #### Final exam project
 
 
-<img src="https://github.com/michele-castenetto/3dshotgame/tree/master/bin/data/images/game_image.png"
-     alt="Game image"
-     style="width:80%" 
-/>
+![Game image](/bin/data/images/game_image.png)
 
 
 

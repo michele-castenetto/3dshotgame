@@ -365,7 +365,7 @@ void ofApp::setup_level(int id) {
 
 
 	cannon = Cannon(level.shots);
-	cannon.setPosition(ofPoint(100, 0, 215));
+	cannon.setPosition(ofPoint(100, -3, 215));
 
 	for (size_t i = 0; i < level.ships.size(); i++)
 	{
@@ -663,9 +663,13 @@ void ofApp::setup() {
 	configureCameras();
 	
 	// game elements
+
+    // set sea limits on Ship class static field
 	Ship::setSeaLimits(ofPoint(0, 0, 20), ofPoint(200, 0, 180));
+    
 	cannon = Cannon();
-	cannon.setPosition(ofPoint(100, 0, 215));
+	cannon.setPosition(ofPoint(100, -3, 215));
+
 	camera2.setPosition(cannon.getPosition() + ofPoint(5, 10, 10));
 	camera4.setPosition(cannon.getPosition() + ofPoint(5, 5, -40));
 	camera4.setTarget(cannon.getPosition() + ofPoint(5, 5, 20));
