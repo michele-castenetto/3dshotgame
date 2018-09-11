@@ -1,7 +1,7 @@
 (function() {
 
 
-    var nodes = document.querySelectorAll(".navigator ul li");
+    var nodes = document.querySelectorAll(".menu ul li");
 
     [].slice.call(nodes).forEach(function(node) {
         node.addEventListener("click", function() {

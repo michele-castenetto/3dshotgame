@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Presentazione Progetto Esame</title>
+    <title> 3d cannon shooter </title>
 
     <link rel="stylesheet" href="index.css">
 </head>
@@ -19,192 +19,206 @@
         <h1>
             3d cannon shooter
         </h1>
+
+        <nav class="menu">
+            <ul>
+                <li data-scrollto="intro"> Intro </li>
+                <li data-scrollto="gamekeys"> Game keys </li>
+                <li data-scrollto="features"> Features </li>
+                <li data-scrollto="developments"> Developments </li>
+                <li data-scrollto="credits"> Credits </li>
+            </ul>
+        </nav>
+
     </header>
 
-    <nav class="navigator">
-        <ul>
-            <!-- <li><a href="#concept" data-scrollto="concept"> Introduction </a></li>
-            <li><a href="#video" data-scrollto="video"> Video </a></li>
-            <li><a href="#gamekeys" data-scrollto="gamekeys"> Game keys </a></li>
-            <li><a href="#features" data-scrollto="features"> Features </a></li>
-            <li><a href="#developments" data-scrollto="developments"> Possible developments </a></li>
-            <li><a href="#credits" data-scrollto="credits"> Credits </a></li> -->
 
-            <li data-scrollto="concept"> Introduction </li>
-            <li data-scrollto="video"> Video </li>
-            <li data-scrollto="gamekeys"> Game keys </li>
-            <li data-scrollto="features"> Features </li>
-            <li data-scrollto="developments"> Possible developments </li>
-            <li data-scrollto="credits"> Credits </li>
-
-        </ul>
-    </nav>
-
-    <a name="concept"></a>
-    <section class="section section_concept">
-        <h3> Game concept </h3>
-
-        <p>
-            This project is build around the idea of a simple game: the player must destroy all the ships with a cannon.
-            If the cannon has no more shots the player lose.
-        </p>
-
-    </section>
-
-    <a name="video"></a>
-    <section class="section section_video">
-        <h3> Video presentazione </h3>
-
-        <p>
-            Short gameplay video  
-        </p>
-
-        <video width="800" controls>
-            <source src="game_video.mp4" type="video/mp4">
-            Your browser does not support HTML5 video.
-        </video>
+    <main class="main">
 
 
-    </section>
-
-    <a name="gamekeys"></a>
-    <section class="section section_gamekeys">
-        <h3> Game keys </h3>
-
-
-        <table>
-            <tr>
-                <td><b>left/right arrows</b></td>
-                <td>move cannon left-right </td>
-            </tr>
-            <tr>
-                <td><b>up/down arrows</b></td>
-                <td>rotate the shot angle up/down </td>
-            </tr>
-            <tr>
-                <td><b>s</b></td>
-                <td> shoot </td>
-            </tr>
-            <tr>
-                <td><b>h</b></td>
-                <td> toggle help </td>
-            </tr>
-            <tr>
-                <td><b>q</b></td>
-                <td> quit game </td>
-            </tr>
-            <tr>
-                <td><b>enter</b></td>
-                <td> start game </td>
-            </tr>
-            <tr>
-                <td><b>1,2,3,4,9</b></td>
-                <td> change camera view </td>
-            </tr>
-            <tr>
-                <td><b>k/l</b></td>
-                <td> save/load game </td>
-            </tr>
-
-        </table>
         
-    </section>
+        <section class="section section_intro">
+            <h3> Intro </h3>
+    
+            <p>
+                The player use a cannon to destroy the pirates ships sailing. When all the ships are sinked the player wins and 
+                pass to the next level. If the cannon runs out of bullets the player lose the game.
+            </p>
+            
+            <p>
+                Gameplay demo video:  
+            </p>
+    
+            <video width="800" controls>
+                <source src="game_video.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
 
-    <a name="features"></a>
-    <section class="section section_features">
-
-        <h3> Features </h3>
-
-        <ul>
-
-            <li> configurable levels in config/config.xml file </li>
-            <li> save/load game status </li>
-
-        </ul>
-        
-    </section>
-
-    <a name="developments"></a>
-    <section class="section section_developments">
-
-        <h3> Possible developments </h3>
-
-        <ul>
-            <li> compute ship mesh bounding boxes dinamically </li>
-            <li> enemy ships shoot on the player </li>
-            <li> textures and materials for better sand and grass </li>
-            <li> fbo draw for better performance </li>
-
-        </ul>
-        
-    </section>
-
-    <a name="credits"></a>
-    <section class="section section_credits">
-
-        <h3> Credits </h3>
-
-        <h4>
-            Code
-        </h4>
-
-        <p> inspiration from openframework examples and from lessons code </p>
-
-        <h4>
-            Sounds
-        </h4>
-
-        <ul>
-            <li> cannon and animation sounds effects <a href="http://soundbible.com"> http://soundbible.com </a></li>
-            <li> background music <a href="http://brethrencoast.com"> http://brethrencoast.com </a></li>
-            <li> ambient background effects <a href="https://freesound.org"> https://freesound.org </a></li>
-        </ul>
-        
-        <h4>
-            Meshes
-        </h4>
-
-        <ul>
-            <li>   
-                <a href="https://poly.google.com/view/3zj00EtTGtX"> "Cannon" </a>
-                by <a href="https://poly.google.com/user/2vPOUCHBqBT"> Nocturnal Wisp</a>
-                is licensed under <a href="https://creativecommons.org/licenses/by/2.0/"> CC BY 2.0 </a>
-            </li>
-
-            <li>   
-                <a href="https://poly.google.com/view/1d76pfN4Dne"> "Sailboat" </a>
-                by <a href="https://poly.google.com/user/4aEd8rQgKu2"> Poly by Google</a>
-                is licensed under <a href="https://creativecommons.org/licenses/by/2.0/"> CC BY 2.0 </a>
-            </li>
-
-            <li>   
-                <a href="https://poly.google.com/view/7aHmBgTur3V"> "Pirate Ship" </a>
-                by <a href="https://poly.google.com/user/8aQJGg9AUJy"> Braden Brunk </a>
-                is licensed under <a href="https://creativecommons.org/licenses/by/2.0/"> CC BY 2.0 </a>
-            </li>
-
-            <li>   
-                <a href="https://poly.google.com/view/0OvZoy1toJH"> "Red Balloon Clouds" </a>
-                by <a href="https://poly.google.com/user/22gwW1lbqRw"> Mike Murdock </a>
-                is licensed under <a href="https://creativecommons.org/licenses/by/2.0/"> CC BY 2.0 </a>
-            </li>
-
-            <li>   
-                <a href="https://poly.google.com/view/3Z-j3UC5jPe"> "Palm Tree 01" </a>
-                by <a href="https://poly.google.com/user/4lZfAdz3x3X"> Jarlan Perez </a>
-                is licensed under <a href="https://creativecommons.org/licenses/by/2.0/"> CC BY 2.0 </a>
-            </li>
-
-            <li>   
-                <a href="https://poly.google.com/view/aa6owopxwu5"> "Palm Tree 02" </a>
-                by <a href="https://poly.google.com/user/4lZfAdz3x3X"> Jarlan Perez </a>
-                is licensed under <a href="https://creativecommons.org/licenses/by/2.0/"> CC BY 2.0 </a>
-            </li>
-
-        </ul>   
+        </section>
         
 
-    </section>
+
+                
+        <section class="section section_gamekeys">
+            <h3> Game keys </h3>
+    
+            
+            <table>
+                <tr>
+                    <td><b>left/right arrows</b></td>
+                    <td>move cannon left-right </td>
+                </tr>
+                <tr>
+                    <td><b>up/down arrows</b></td>
+                    <td>rotate the shot angle up/down </td>
+                </tr>
+                <tr>
+                    <td><b>s</b></td>
+                    <td> shoot, more long key stay pressed more will be the shot strength </td>
+                </tr>
+                <tr>
+                    <td><b>h</b></td>
+                    <td> toggle help </td>
+                </tr>
+                <tr>
+                    <td><b>q</b></td>
+                    <td> quit game </td>
+                </tr>
+                <tr>
+                    <td><b>enter</b></td>
+                    <td> start game </td>
+                </tr>
+                <tr>
+                    <td><b>1,2,3,4,9</b></td>
+                    <td> change camera view: normal, cannon, top, front, free </td>
+                </tr>
+                <tr>
+                    <td><b>k/l</b></td>
+                    <td> save/load game </td>
+                </tr>
+    
+            </table>
+            
+        </section>
+    
+       
+        <section class="section section_features">
+    
+            <h3> Features </h3>
+            
+            <h4> Configurable levels </h4>
+
+            <p>
+                In bin/data/config/ folder are present a config.xml file to configure the game levels:
+            </p>
+
+            <img class="code_image" src="config_code.png" alt="config code">
+
+            <p>
+                Level bullet number and ships are configurable.
+            </p>
+
+
+            <h4> Save/load game </h4>
+
+            <p>
+                Pressing k/l kay the app write/read and load a xml file with the game status.
+            </p>
+
+        </section>
+    
+        
+        <section class="section section_developments">
+    
+            <h3> Developments </h3>
+    
+            <ul>
+                <li> Compute ship mesh bounding boxes dinamically </li>
+                <li> Enemy ships shoot on the player </li>
+                <li> Textures and materials for better sand and grass </li>
+                <li> Fbo draw for better performance </li>
+                <li> Use of inheritance for reducing animation loops </li>
+            </ul>
+            
+        </section>
+    
+        
+        <section class="section section_credits">
+    
+            <h3> Credits </h3>
+    
+            <h4>
+                Code
+            </h4>
+    
+            <p> inspiration from openframework examples and from lessons code </p>
+    
+            <h4>
+                Sounds
+            </h4>
+    
+            <ul>
+                <li> cannon and animation sounds effects <a href="http://soundbible.com"> http://soundbible.com </a></li>
+                <li> background music <a href="http://brethrencoast.com"> http://brethrencoast.com </a></li>
+                <li> ambient background effects <a href="https://freesound.org"> https://freesound.org </a></li>
+            </ul>
+            
+            <h4>
+                Meshes
+            </h4>
+    
+            <ul>
+                <li>   
+                    <a href="https://poly.google.com/view/3zj00EtTGtX"> "Cannon" </a>
+                    by <a href="https://poly.google.com/user/2vPOUCHBqBT"> Nocturnal Wisp</a>
+                    is licensed under <a href="https://creativecommons.org/licenses/by/2.0/"> CC BY 2.0 </a>
+                </li>
+    
+                <li>   
+                    <a href="https://poly.google.com/view/1d76pfN4Dne"> "Sailboat" </a>
+                    by <a href="https://poly.google.com/user/4aEd8rQgKu2"> Poly by Google</a>
+                    is licensed under <a href="https://creativecommons.org/licenses/by/2.0/"> CC BY 2.0 </a>
+                </li>
+    
+                <li>   
+                    <a href="https://poly.google.com/view/7aHmBgTur3V"> "Pirate Ship" </a>
+                    by <a href="https://poly.google.com/user/8aQJGg9AUJy"> Braden Brunk </a>
+                    is licensed under <a href="https://creativecommons.org/licenses/by/2.0/"> CC BY 2.0 </a>
+                </li>
+    
+                <li>   
+                    <a href="https://poly.google.com/view/0OvZoy1toJH"> "Red Balloon Clouds" </a>
+                    by <a href="https://poly.google.com/user/22gwW1lbqRw"> Mike Murdock </a>
+                    is licensed under <a href="https://creativecommons.org/licenses/by/2.0/"> CC BY 2.0 </a>
+                </li>
+    
+                <li>   
+                    <a href="https://poly.google.com/view/3Z-j3UC5jPe"> "Palm Tree 01" </a>
+                    by <a href="https://poly.google.com/user/4lZfAdz3x3X"> Jarlan Perez </a>
+                    is licensed under <a href="https://creativecommons.org/licenses/by/2.0/"> CC BY 2.0 </a>
+                </li>
+    
+                <li>   
+                    <a href="https://poly.google.com/view/aa6owopxwu5"> "Palm Tree 02" </a>
+                    by <a href="https://poly.google.com/user/4lZfAdz3x3X"> Jarlan Perez </a>
+                    is licensed under <a href="https://creativecommons.org/licenses/by/2.0/"> CC BY 2.0 </a>
+                </li>
+    
+            </ul>   
+            
+    
+        </section>
+
+
+
+
+
+
+    </main>
+
+
+
+
 
 
     <script src="scrollto.js"></script>

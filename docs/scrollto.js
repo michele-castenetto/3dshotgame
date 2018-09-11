@@ -106,7 +106,11 @@ var scrollto = (function() {
         var documentHeight = Math.max(document.body.scrollHeight, document.body.offsetHeight, document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight);
         var windowHeight = window.innerHeight || document.documentElement.clientHeight || document.getElementsByTagName('body')[0].clientHeight;
         var destinationOffset = typeof destination === 'number' ? destination : destination.offsetTop;
+        destinationOffset = destinationOffset - 12*16;
+        
+        
         var destinationOffsetToScroll = Math.round(documentHeight - destinationOffset < windowHeight ? documentHeight - windowHeight : destinationOffset);
+        
         
     
         if ('requestAnimationFrame' in window === false) {
